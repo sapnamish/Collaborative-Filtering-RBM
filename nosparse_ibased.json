@@ -1,0 +1,3224 @@
+{
+    "experiments": [
+        {
+        "name": "100k-u1xu1-vikas",
+        "train_path": "ml-100k/u1.base",
+        "test_path": "ml-100k/u1.test",
+        "sep": "\t",
+        "configs": [
+            {
+                "name": "initial_experiment",
+                "epochs": 100,
+                "batch_size": 10,
+                "number_hidden": 100,
+                "ks": [1],
+                "momentums": [0.5, 0.6],
+                "l_w": [0.0005],
+                "l_v": [0.0005],
+                "l_h": [0.0005],
+                "decay": 0.0002
+            }
+        ]
+    },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_1",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_2",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_3",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_4",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_5",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_6",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_7",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_8",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_9",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_10",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_11",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_12",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_13",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_14",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_15",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_16",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_17",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_18",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_19",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_20",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_21",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_22",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_23",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_24",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_25",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_26",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_27",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_28",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_29",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_30",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_31",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_32",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_33",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_34",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_35",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_36",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_37",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_38",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_39",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_40",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_41",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_42",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_43",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_44",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_45",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_46",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_47",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_48",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_49",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_50",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_51",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_52",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_53",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_54",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_55",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_56",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_57",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_58",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_59",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_60",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_61",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_62",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_63",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_64",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_65",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_66",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_67",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_68",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_69",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_70",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_71",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_72",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_73",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_74",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_75",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_76",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_77",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_78",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_79",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_80",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_81",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_82",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_83",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_84",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_85",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_86",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_87",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_88",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_89",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_90",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_91",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_92",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_93",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_94",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_95",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_96",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_97",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_98",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_99",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        },
+        {
+            "name": "100k-u1xu1",
+            "test_path": "ml-100k/u1.test",
+            "configs": [
+                {
+                    "batch_size": 10,
+                    "momentums": [
+                        0.5,
+                        0.6
+                    ],
+                    "name": "nosparse_item_e100_b10_nh100_100",
+                    "ks": [
+                        1
+                    ],
+                    "number_hidden": 100,
+                    "l_v": [
+                        0.0005
+                    ],
+                    "l_w": [
+                        0.0005
+                    ],
+                    "l_h": [
+                        0.0005
+                    ],
+                    "decay": 0.0002,
+                    "epochs": 100
+                }
+            ],
+            "train_path": "ml-100k/u1.base",
+            "item_path": "ml-100k/u.item",
+            "sep": "\t"
+        }
+    ]
+}
