@@ -20,6 +20,7 @@ $ THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32,base_compiledir=./tmp/the
 There are various experiments described in ```experiment_descriptions``` and on running the project, the experiments are executed and their results are stored in ```experiments```. It may take ***more than a day*** to run all experiments.
 
 To speed up the process, you can utilize the gpu of your machine by replacing 
+
 ```device=cpu```
 with
 ```
