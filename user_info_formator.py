@@ -50,14 +50,14 @@ def format_age(age):
     return ret
 
 
-r = csv.reader(open('../dataset/ml-100k/u.user','rb'), delimiter='|')
-w = csv.writer(open('../dataset/ml-100k/u.user.mod','wb'), delimiter='|')
+r = csv.reader(open('ml-100k/u.user','rb'), delimiter='|')
+w = csv.writer(open('ml-100k/u.user.mod','wb'), delimiter='|')
 
 for row in r:
     w.writerow([row[0]] + format_age(row[1]) + format_sex(row[2]) + format_occ(row[3], False))
 
-r = csv.reader(open('../dataset/ml-1m/users.dat','rb'), delimiter='|')
-w = csv.writer(open('../dataset/ml-1m/users.dat.mod','wb'), delimiter='|')
+r = csv.reader(open('ml-1m/users.dat','rb'), delimiter='|')
+w = csv.writer(open('ml-1m/users.dat.mod','wb'), delimiter='|')
 
 for row in r:
     w.writerow([row[0]] + format_age(row[2]) + format_sex(row[1]) + format_occ(row[3], True))
