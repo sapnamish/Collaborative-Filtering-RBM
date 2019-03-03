@@ -3,9 +3,6 @@ run: run_100k_u1_ibased run_100k_u2_ibased run_100k_u3_ibased run_100k_u4_ibased
 	run_100k_u1_ubased run_100k_u2_ubased run_100k_u3_ubased run_100k_u4_ubased run_100k_u5_ubased \
 	run_100k_u1_uubased run_100k_u2_uubased run_100k_u3_uubased run_100k_u4_uubased run_100k_u5_uubased
 
-run_100k_vikas:
-	THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 pythonw cfrbm/user_based.py experiment_descriptions/ubased.json
-
 run_100k_u1_ibased:
 	THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32,base_compiledir=./tmp/theano.NOBACKUP1 pythonw cfrbm/nosparse_item_based.py experiment_descriptions/100k_u1_ibased.json
 
