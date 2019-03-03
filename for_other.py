@@ -44,7 +44,7 @@ w_test = open('ml-10M100K/test_10m1','wb')
 
 print len(users.keys()),user_id,len(movies.keys()),movie_id
 w_base.write('%%MatrixMarket matrix coordinate real general\n')
-w_base.write('% Generated 12-November-2016\n')
+w_base.write('% GGenerated 28-February-2019\n')
 w_base.write(str(len(users.keys())) + ' ' + str(len(movies.keys())) + ' ' + str(ratings_base) + '\n')
 for l in l_base:
     w_base.write(str(users[l[0]]) + ' ' + str(movies[l[1]]) + ' ' + str(l[2]) + '\n')
